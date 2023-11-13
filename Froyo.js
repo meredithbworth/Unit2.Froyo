@@ -2,23 +2,25 @@
 
 //
 
-const froyoFlavor1 = {
+const froyoFlavor = [
+  {
     name: "Vanilla",
     color: "white",
     taste: "generic and warm",
-}
-const froyoFlavor2 = {
+  },
+  {
     name: "Coffee",
     color: "light brown",
     taste: "earthy and aromatic",
-}
-const froyoFlavor3 = {
+  },
+  {
     name: "Strawberry",
     color: "pink",
     taste: "fruity and sweet",
-}
-const froyoFlavor4 = {
+  },
+  {
     name: "Chocolate",
     color: "deep brown",
     taste: "rich and melty",
-}
+  }
+]
