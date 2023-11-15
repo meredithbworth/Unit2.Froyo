@@ -49,5 +49,4 @@ console.log(`The largest of your numbers is ${getMax(numbers)}.`);
 console.log(`The range of your numbers is ${getRange(numbers)}.`);
 console.log(`The even numbers you gave are ${getEvens(numbers)}.`);
 console.log(`The odd numbers you gave are ${getOdds(numbers)}.`);
-
-// === EDIT THE CODE BELOW ===
+f
