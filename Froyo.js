@@ -2,23 +2,40 @@
 
 //
 
-// const froyoFlavor = [
-//   {
-//     name: "Vanilla",
-//     color: "white",
-//     taste: "generic and warm",
-//   },
-//   {
-//     name: "Coffee",
-//     color: "light brown",
-//     taste: "earthy and aromatic",
-//   },
-//   {
-//     name: "Strawberry",
-//     color: "pink",
-//     taste: "fruity and sweet",
-//   }
-// ]
+const froyoFlavor = [
+  {
+    name: "vanilla",
+    color: "white",
+    taste: "generic and warm",
+  },
+  {
+    name: "coffee",
+    color: "light brown",
+    taste: "earthy and aromatic",
+  },
+  {
+    name: "strawberry",
+    color: "pink",
+    taste: "fruity and sweet"
+  }
+]
+//console.log(froyoFlavor[1]);
+
+const flavorSum = {
+  totalVanilla: 0,
+  totalCoffee: 0,
+  totalStrawberry: 0
+};
+function userInputString {
+  if (userInputString === 'vanilla') {
+    flavorSum.totalVanilla ++;
+  } else if (userInputString === 'coffee') {
+    flavorSum.totalCoffee ++;
+  } else if (userInputString === 'strawberry') {
+    flavorSum.totalCoffee ++;
+  }
+}
+
 // === DO NOT EDIT THIS REGION ===
 // Read the comments to understand how the program is structured.
 
