@@ -26,20 +26,22 @@ const flavorSum = {
   totalCoffee: 0,
   totalStrawberry: 0
 };
-function userInputString {
-  if (userInputString === 'vanilla') {
-    flavorSum.totalVanilla ++;
-  } else if (userInputString === 'coffee') {
-    flavorSum.totalCoffee ++;
-  } else if (userInputString === 'strawberry') {
-    flavorSum.totalStrawberry ++;
+
+function iceCream (userInputString) {
+  if (iceCream === 'vanilla') {
+    flavorSum.totalVanilla += 1;
+  } else if (iceCream === 'coffee') {
+    flavorSum.totalCoffee += 1;
+  } else if (iceCream === 'strawberry') {
+    flavorSum.totalStrawberry += 1;
   }
 }
+  console.log(flavorSum.totalCoffee);
+
 
 // === DO NOT EDIT THIS REGION ===
 // Read the comments to understand how the program is structured.
 
-// Prompt the user for a list of integers separated by commas.
 const userInputString = prompt(
   "Please enter some Froyo flavors separated by commas.",
   "vanilla, vanilla, vanilla, strawberry, coffee, coffee"
@@ -48,22 +50,10 @@ const userInputString = prompt(
 // Split the string of numbers into an array of strings.
 const stringArray = userInputString.split(",");
 
-// // Convert the array of strings into an array of numbers.
+// Convert the array of strings into an array of numbers.
 // const froyoStr = [];
 // for (let i = 0; i < stringArray.length; i++) {
 //   const str = stringArray[i];
 //   const number = parseInt(str);
 //   numbers.push(number);
 // }
-
-// Peform some calculations on the numbers.
-console.log(numbers);
-console.log(`You have given ${getLength(numbers)} numbers.`);
-console.log(`The sum of your numbers is ${getSum(numbers)}.`);
-console.log(`The mean of your numbers is ${getMean(numbers)}.`);
-console.log(`The smallest of your numbers is ${getMin(numbers)}.`);
-console.log(`The largest of your numbers is ${getMax(numbers)}.`);
-console.log(`The range of your numbers is ${getRange(numbers)}.`);
-console.log(`The even numbers you gave are ${getEvens(numbers)}.`);
-console.log(`The odd numbers you gave are ${getOdds(numbers)}.`);
-f
