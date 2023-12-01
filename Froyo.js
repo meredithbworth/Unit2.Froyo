@@ -32,7 +32,7 @@ function userInputString {
   } else if (userInputString === 'coffee') {
     flavorSum.totalCoffee ++;
   } else if (userInputString === 'strawberry') {
-    flavorSum.totalCoffee ++;
+    flavorSum.totalStrawberry ++;
   }
 }
 
