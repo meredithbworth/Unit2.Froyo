@@ -27,16 +27,29 @@ const flavorSum = {
   totalStrawberry: 0
 };
 
-function iceCream (userInputString) {
-  if (iceCream === 'vanilla') {
-    flavorSum.totalVanilla += 1;
-  } else if (iceCream === 'coffee') {
-    flavorSum.totalCoffee += 1;
-  } else if (iceCream === 'strawberry') {
-    flavorSum.totalStrawberry += 1;
-  }
-}
-  console.log(flavorSum.totalCoffee);
+let numbersSum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    if (userInputString === 'vanilla') {
+      flavorSum.totalVanilla += 1;
+    } else if (userInputString === 'coffee') {
+      flavorSum.totalCoffee += 1;
+    } else if (userInputString === 'strawberry') {
+      flavorSum.totalStrawberry += 1;
+    }
+   
+  } 
+  return numbersSum;
+
+// function iceCream (userInputString) {
+//   if (iceCream === 'vanilla') {
+//     flavorSum.totalVanilla += 1;
+//   } else if (iceCream === 'coffee') {
+//     flavorSum.totalCoffee += 1;
+//   } else if (iceCream === 'strawberry') {
+//     flavorSum.totalStrawberry += 1;
+//   }
+// }
+//   console.log(flavorSum.totalCoffee);
 
 
 // === DO NOT EDIT THIS REGION ===
@@ -51,9 +64,9 @@ const userInputString = prompt(
 const stringArray = userInputString.split(",");
 
 // Convert the array of strings into an array of numbers.
-// const froyoStr = [];
-// for (let i = 0; i < stringArray.length; i++) {
-//   const str = stringArray[i];
-//   const number = parseInt(str);
-//   numbers.push(number);
-// }
+const froyoStr = [];
+for (let i = 0; i < stringArray.length; i++) {
+  const str = stringArray[i];
+  const number = parseInt(str);
+  numbers.push(number);
+}
