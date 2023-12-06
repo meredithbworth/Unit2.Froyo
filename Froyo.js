@@ -2,9 +2,12 @@
 
 We will take in unput from the user of any ice cream flavor in the form of a string. Then we will put those strings of text into an */
 
+const flavorMap = {
+};
+
 const userInputString = prompt(
   "Please enter some Froyo flavors separated by commas.",
-  "vanilla, vanilla, vanilla, strawberry, coffee, coffee"
+  "vanilla, vanilla, vanilla, strawberry, coffee, coffee, chocolate, vanilla, strawberry, pistacchio, coffee"
 );
 
 // Split the string of ice cream into an array of strings.
